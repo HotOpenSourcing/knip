@@ -1,7 +1,7 @@
 {
   "name": "@plugins/expo5",
   "scripts": {
-    "start": "expo start"
+    "start": "node init && expo start"
   },
   "dependencies": {
     "expo": "*",

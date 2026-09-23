@@ -1,8 +1,8 @@
 {
   "name": "@plugins/parcel",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "node init && parcel src/index.html",
+    "build": "node init && parcel build src/index.html"
   },
   "devDependencies": {
     "parcel": "*"

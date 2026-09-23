@@ -4,9 +4,9 @@
     "tsup": "*"
   },
   "scripts": {
-    "build": "tsup",
-    "build-3": "tsup --config tsup.config-3.ts",
-    "build-4": "tsup -c tsup.config-4.ts"
+    "build": "node init && tsup",
+    "build-3": "node init && tsup --config tsup.config-3.ts",
+    "build-4": "node init && tsup -c tsup.config-4.ts"
   },
   "tsup": {
     "entry": [

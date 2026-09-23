@@ -5,6 +5,6 @@
     "@svgr/plugin-jsx": "*"
   },
   "scripts": {
-    "build": "svgr"
+    "build": "node init && svgr"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@fixtures/binary-package-name",
   "scripts": {
-    "build": "custom-builder"
+    "build": "node init && custom-builder"
   },
   "devDependencies": {
     "custom-builder": "*"

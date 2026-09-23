@@ -1,6 +1,6 @@
 {
   "name": "@fixtures/workspaces-ignored__c",
   "scripts": {
-    "start": "ignored"
+    "start": "node init && ignored"
   }
 }

@@ -2,7 +2,7 @@
   "name": "@plugins/expo3",
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start"
+    "start": "node init && expo start"
   },
   "dependencies": {
     "@expo/metro-runtime": "*",

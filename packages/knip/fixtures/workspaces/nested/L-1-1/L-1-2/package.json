@@ -1,7 +1,7 @@
 {
   "name": "@fixtures/workspaces-nested__L-1-2",
   "scripts": {
-    "start": "ignored-bin-L-2",
+    "start": "node init && ignored-bin-L-2",
     "global": "ignored-bin-global"
   },
   "dependencies": {

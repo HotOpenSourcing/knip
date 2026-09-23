@@ -1,12 +1,12 @@
 {
   "name": "@plugins/typescript",
   "scripts": {
-    "build-base": "tsc -p tsconfig.base.json",
-    "build-content-mapper": "tsc -p tsconfig.content-mapper.json",
-    "build-ext": "tsc -p tsconfig.ext.json",
-    "build-preact": "tsc -p tsconfig.jsx-import-source-preact.json",
-    "build-react": "tsc -p tsconfig.jsx-import-source-react.json",
-    "build-jsx": "tsc -p tsconfig.jsx-preserve.json"
+    "build-base": "node init && tsc -p tsconfig.base.json",
+    "build-content-mapper": "node init && tsc -p tsconfig.content-mapper.json",
+    "build-ext": "node init && tsc -p tsconfig.ext.json",
+    "build-preact": "node init && tsc -p tsconfig.jsx-import-source-preact.json",
+    "build-react": "node init && tsc -p tsconfig.jsx-import-source-react.json",
+    "build-jsx": "node init && tsc -p tsconfig.jsx-preserve.json"
   },
   "devDependencies": {
     "ember-content-mapper": "*",

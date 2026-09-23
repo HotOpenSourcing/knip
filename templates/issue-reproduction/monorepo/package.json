@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "type-check": "tsc --build --noEmit",
     "knip": "knip"
   },

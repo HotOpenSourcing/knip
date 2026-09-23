@@ -6,7 +6,7 @@
     "./nested": "./dist/modules/nested.js"
   },
   "scripts": {
-    "build": "tsdown --root src --platform node --publint src/library.ts src/modules/nested.ts --dts --no-config --outDir dist"
+    "build": "node init && tsdown --root src --platform node --publint src/library.ts src/modules/nested.ts --dts --no-config --outDir dist"
   },
   "devDependencies": {
     "tsdown": "*"

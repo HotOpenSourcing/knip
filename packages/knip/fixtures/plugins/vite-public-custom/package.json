@@ -1,7 +1,7 @@
 {
   "name": "@plugins/vite-public-custom",
   "scripts": {
-    "dev": "vite --config config/build.ts"
+    "dev": "node init && vite --config config/build.ts"
   },
   "devDependencies": {
     "vite": "*"

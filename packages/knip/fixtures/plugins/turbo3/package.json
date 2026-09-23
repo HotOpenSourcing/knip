@@ -1,8 +1,10 @@
 {
   "name": "@plugins/turbo3",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "build": "turbo run build"
+    "build": "node init && turbo run build"
   },
   "devDependencies": {
     "turbo": "*"

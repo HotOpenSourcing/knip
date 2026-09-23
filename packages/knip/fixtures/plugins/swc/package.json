@@ -1,7 +1,7 @@
 {
   "name": "@plugins/swc",
   "scripts": {
-    "build": "swc src -d dist"
+    "build": "node init && swc src -d dist"
   },
   "dependencies": {
     "@swc/helpers": "*"

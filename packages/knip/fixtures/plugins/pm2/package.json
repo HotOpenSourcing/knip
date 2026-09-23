@@ -1,7 +1,7 @@
 {
   "name": "@plugins/pm2",
   "scripts": {
-    "start": "pm2 start pm2.config.json"
+    "start": "node init && pm2 start pm2.config.json"
   },
   "devDependencies": {
     "pm2": "*"

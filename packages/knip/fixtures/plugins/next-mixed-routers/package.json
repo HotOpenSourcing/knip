@@ -1,7 +1,7 @@
 {
   "name": "@plugins/next-mixed-routers",
   "scripts": {
-    "dev": "next dev"
+    "dev": "node init && next dev"
   },
   "devDependencies": {
     "next": "*"

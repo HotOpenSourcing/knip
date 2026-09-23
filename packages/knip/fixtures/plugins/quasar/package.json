@@ -1,7 +1,7 @@
 {
   "name": "@plugins/quasar",
   "scripts": {
-    "dev": "quasar dev"
+    "dev": "node init && quasar dev"
   },
   "dependencies": {
     "quasar": "*"

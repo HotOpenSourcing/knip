@@ -4,9 +4,9 @@
     "tsdown": "*"
   },
   "scripts": {
-    "build": "tsdown",
-    "build-3": "tsdown --config tsdown.config-3.ts",
-    "build-4": "tsdown -c tsdown.config-4.ts"
+    "build": "node init && tsdown",
+    "build-3": "node init && tsdown --config tsdown.config-3.ts",
+    "build-4": "node init && tsdown -c tsdown.config-4.ts"
   },
   "tsdown": {
     "entry": [

@@ -1,8 +1,8 @@
 {
   "name": "@plugins/nitro",
   "scripts": {
-    "build": "nitro build",
-    "dev": "nitro dev",
+    "build": "node init && nitro build",
+    "dev": "node init && nitro dev",
     "preview": "node .output/server/index.mjs",
     "postinstall": "nitro prepare"
   },

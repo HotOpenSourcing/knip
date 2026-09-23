@@ -1,7 +1,7 @@
 {
   "name": "@fixtures/dependencies",
   "scripts": {
-    "start": "start-server",
+    "start": "node init && start-server",
     "test": "jest"
   },
   "dependencies": {

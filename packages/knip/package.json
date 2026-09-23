@@ -1,6 +1,6 @@
 {
   "name": "knip",
-  "version": "6.37.0",
+  "version": "6.38.0",
   "description": "Find and fix unused dependencies, exports and files in your TypeScript and JavaScript projects",
   "keywords": [
     "analysis",
@@ -87,7 +87,7 @@
     "fmt": "oxfmt -c ../../.oxfmtrc.json --ignore-path ../../.prettierignore",
     "test": "node scripts/run-test.js",
     "prebuild": "pnpm run generate-plugin-defs && node rmdir.js dist",
-    "build": "tsc",
+    "build": "node init && tsc",
     "qa": "pnpm lint && pnpm build && pnpm knip && pnpm knip:production && pnpm test",
     "release": "NODE_OPTIONS=--no-deprecation release-it",
     "create-plugin": "node ./scripts/create-new-plugin.ts",

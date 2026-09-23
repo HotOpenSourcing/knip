@@ -2,7 +2,7 @@
   "name": "@plugins/husky-v9",
   "scripts": {
     "prepare": "husky",
-    "build": "node",
+    "build": "node init && node",
     "test": "node"
   },
   "devDependencies": {

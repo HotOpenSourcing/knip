@@ -1,7 +1,7 @@
 {
   "name": "@plugins/vite-public-disabled",
   "scripts": {
-    "dev": "vite"
+    "dev": "node init && vite"
   },
   "devDependencies": {
     "vite": "*"

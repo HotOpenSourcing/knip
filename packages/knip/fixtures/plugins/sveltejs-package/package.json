@@ -13,7 +13,7 @@
     }
   },
   "scripts": {
-    "build": "svelte-package"
+    "build": "node init && svelte-package"
   },
   "devDependencies": {
     "@sveltejs/package": "*",

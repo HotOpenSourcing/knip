@@ -1,7 +1,7 @@
 {
   "name": "@plugins/varlock-production",
   "scripts": {
-    "start": "varlock load --env staging"
+    "start": "node init && varlock load --env staging"
   },
   "dependencies": {
     "inactive-staging-plugin": "1.0.0",

@@ -1,9 +1,9 @@
 {
   "name": "@plugins/eleventy3",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "build:website:watch": "eleventy --serve --port=2023"
+    "start": "node init && npx @11ty/eleventy --serve",
+    "build": "node init && npx @11ty/eleventy",
+    "build:website:watch": "node init && eleventy --serve --port=2023"
   },
   "devDependencies": {
     "@11ty/eleventy": "*",

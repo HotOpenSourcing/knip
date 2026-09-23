@@ -1,8 +1,8 @@
 {
   "name": "@plugins/github-actions",
   "scripts": {
-    "build": "",
-    "dev:seed-db": "",
+    "build": "node init && ",
+    "dev:seed-db": "node init && ",
     "lint": "",
     "setup:test": "",
     "task": "",

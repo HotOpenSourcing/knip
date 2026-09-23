@@ -1,9 +1,9 @@
 {
   "name": "@plugins/vike",
   "scripts": {
-    "dev": "npm run server:dev",
+    "dev": "node init && npm run server:dev",
     "prod": "npm run lint && npm run build && npm run server:prod",
-    "build": "vite build",
+    "build": "node init && vite build",
     "server": "node --loader ts-node/esm ./server/index.ts"
   },
   "dependencies": {

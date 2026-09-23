@@ -1,7 +1,7 @@
 {
   "name": "@plugins/preconstruct",
   "scripts": {
-    "build": "preconstruct build"
+    "build": "node init && preconstruct build"
   },
   "devDependencies": {
     "@preconstruct/cli": "*"

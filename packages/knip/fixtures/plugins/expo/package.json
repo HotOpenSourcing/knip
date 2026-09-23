@@ -1,7 +1,7 @@
 {
   "name": "@plugins/expo",
   "scripts": {
-    "start": "expo start"
+    "start": "node init && expo start"
   },
   "dependencies": {
     "@config-plugins/detox": "*",

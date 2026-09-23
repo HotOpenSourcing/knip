@@ -1,8 +1,11 @@
 {
   "name": "@fixtures/marko",
-  "files": ["dist", "marko.json"],
+  "files": [
+    "dist",
+    "marko.json"
+  ],
   "scripts": {
-    "build": "mtc"
+    "build": "node init && mtc"
   },
   "dependencies": {
     "@orchard/marko-tags": "*",

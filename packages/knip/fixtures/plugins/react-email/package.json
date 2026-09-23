@@ -8,10 +8,10 @@
     "@react-email/preview-server": "^5.2.10"
   },
   "scripts": {
-    "build": "email build --dir ./build-dir",
-    "dev": "email dev --dir ./dev-dir",
+    "build": "node init && email build --dir ./build-dir",
+    "dev": "node init && email dev --dir ./dev-dir",
     "export": "email export --dir ./export-dir",
     "preview": "email dev -d ./preview-dir",
-    "start": "email start --dir ./start-dir"
+    "start": "node init && email start --dir ./start-dir"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@plugins/nuxt-config",
   "scripts": {
-    "build": "nuxt build"
+    "build": "node init && nuxt build"
   },
   "dependencies": {
     "nuxt": "*",

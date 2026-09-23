@@ -4,8 +4,8 @@
     "#subpath/*": "./src/*"
   },
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve"
+    "build": "node init && webpack",
+    "dev": "node init && webpack serve"
   },
   "dependencies": {},
   "devDependencies": {

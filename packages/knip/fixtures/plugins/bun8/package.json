@@ -1,7 +1,7 @@
 {
   "name": "@plugins/bun8",
   "scripts": {
-    "build": "bun run compile.ts",
+    "build": "node init && bun run compile.ts",
     "test": "bun run build && bun test"
   },
   "devDependencies": {

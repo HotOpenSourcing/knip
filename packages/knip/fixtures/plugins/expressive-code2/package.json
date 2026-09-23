@@ -2,8 +2,8 @@
   "name": "@plugins/expressive-code2",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build"
+    "dev": "node init && astro dev",
+    "build": "node init && astro build"
   },
   "dependencies": {
     "@astrojs/mdx": "*",

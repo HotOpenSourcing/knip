@@ -7,6 +7,6 @@
     "@react-email/ui": "*"
   },
   "scripts": {
-    "dev": "email dev --dir ./dev-dir"
+    "dev": "node init && email dev --dir ./dev-dir"
   }
 }

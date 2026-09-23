@@ -4,8 +4,8 @@
     "apps/*"
   ],
   "scripts": {
-    "build": "wireit",
-    "dev": "wireit"
+    "build": "node init && wireit",
+    "dev": "node init && wireit"
   },
   "devDependencies": {
     "wireit": "*"

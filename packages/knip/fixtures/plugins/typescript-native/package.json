@@ -1,7 +1,7 @@
 {
   "name": "@plugins/typescript-native",
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "devDependencies": {
     "@types/node": "*",

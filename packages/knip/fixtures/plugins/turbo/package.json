@@ -1,7 +1,7 @@
 {
   "name": "@plugins/turbo",
   "scripts": {
-    "build": "turbo run build"
+    "build": "node init && turbo run build"
   },
   "devDependencies": {
     "@turbo/gen": "*",

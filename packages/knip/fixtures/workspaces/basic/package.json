@@ -13,7 +13,7 @@
     "zod": "*"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "knip": {
     "ignoreWorkspaces": [

@@ -1,6 +1,6 @@
 {
   "name": "@fixtures/workspaces-ignored__production",
   "scripts": {
-    "start": "ignored-in-production-mode"
+    "start": "node init && ignored-in-production-mode"
   }
 }

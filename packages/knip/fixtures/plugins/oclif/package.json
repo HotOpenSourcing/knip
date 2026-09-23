@@ -1,7 +1,7 @@
 {
   "name": "@plugins/oclif",
   "scripts": {
-    "start": "oclif"
+    "start": "node init && oclif"
   },
   "dependencies": {
     "oclif": "*"

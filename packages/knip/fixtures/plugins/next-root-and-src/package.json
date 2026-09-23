@@ -1,7 +1,7 @@
 {
   "name": "@plugins/next-root-and-src",
   "scripts": {
-    "dev": "next dev"
+    "dev": "node init && next dev"
   },
   "devDependencies": {
     "next": "*"

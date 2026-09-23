@@ -1,7 +1,7 @@
 {
   "name": "@fixtures/binary-provider-collision",
   "scripts": {
-    "build": "custom-build-cli"
+    "build": "node init && custom-build-cli"
   },
   "devDependencies": {
     "custom-builder": "*",

@@ -1,8 +1,8 @@
 {
   "name": "@fixtures/workspaces-plugin-config__frontend",
   "scripts": {
-    "dev": "next dev",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "start": "node init && next start",
     "test": "vitest"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
 {
   "name": "@plugins/wireit__example-configuration",
   "scripts": {
-    "build": "wireit",
+    "build": "node init && wireit",
     "bundle": "wireit"
   },
   "wireit": {

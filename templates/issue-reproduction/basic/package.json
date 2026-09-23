@@ -6,7 +6,7 @@
   "homepage": "https://knip.dev",
   "bugs": "https://github.com/webpro-nl/knip/issues",
   "scripts": {
-    "build": "tsc --build",
+    "build": "node init && tsc --build",
     "type-check": "tsc --build --noEmit",
     "knip": "knip"
   },

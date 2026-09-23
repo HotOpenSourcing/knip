@@ -1,7 +1,7 @@
 {
   "name": "@plugins/tsgo",
   "scripts": {
-    "build": "tsgo"
+    "build": "node init && tsgo"
   },
   "devDependencies": {
     "@typescript/native-preview": "*",

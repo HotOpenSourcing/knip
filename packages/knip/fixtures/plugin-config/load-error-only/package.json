@@ -2,7 +2,7 @@
   "name": "@fixtures/plugin-config-load-error-only",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "node init && vite build"
   },
   "devDependencies": {
     "vite": "*"

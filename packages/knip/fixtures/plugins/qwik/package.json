@@ -2,8 +2,8 @@
   "name": "@plugins/qwik",
   "type": "module",
   "scripts": {
-    "build": "qwik build",
-    "dev": "vite --mode ssr",
+    "build": "node init && qwik build",
+    "dev": "node init && vite --mode ssr",
     "preview": "qwik build preview && vite preview --open"
   },
   "devDependencies": {

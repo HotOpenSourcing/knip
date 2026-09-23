@@ -1,8 +1,8 @@
 {
   "name": "@plugins/unocss",
   "scripts": {
-    "dev": "unocss \"site/{snippets,templates}/**/*.php\" --watch",
-    "build": "unocss \"site/{snippets,templates}/**/*.php\""
+    "dev": "node init && unocss \"site/{snippets,templates}/**/*.php\" --watch",
+    "build": "node init && unocss \"site/{snippets,templates}/**/*.php\""
   },
   "devDependencies": {
     "@unocss/cli": "*",

@@ -1,7 +1,7 @@
 {
   "name": "@plugins/webpack2",
   "scripts": {
-    "dev": "webpack --config webpack.dev.js",
+    "dev": "node init && webpack --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js"
   },
   "dependencies": {},

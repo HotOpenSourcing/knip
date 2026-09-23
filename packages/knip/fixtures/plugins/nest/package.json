@@ -1,7 +1,7 @@
 {
   "name": "@plugins/nest",
   "scripts": {
-    "start": "nest start"
+    "start": "node init && nest start"
   },
   "dependencies": {
     "@nestjs/common": "*",

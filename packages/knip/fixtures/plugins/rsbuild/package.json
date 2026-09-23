@@ -1,8 +1,8 @@
 {
   "name": "@plugins/rsbuild",
   "scripts": {
-    "dev": "rsbuild dev --open",
-    "build": "rsbuild build",
+    "dev": "node init && rsbuild dev --open",
+    "build": "node init && rsbuild build",
     "preview": "rsbuild preview"
   },
   "devDependencies": {
